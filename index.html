@@ -1,0 +1,392 @@
+<html>
+
+<head>
+    <title>Ayvalanma Uygulaması</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <style type="text/css">
+        ol.lst-kix_c5nbmthp09ff-5.start {
+            counter-reset: lst-ctn-kix_c5nbmthp09ff-5 0
+        }
+
+        .lst-kix_c5nbmthp09ff-2>li {
+            counter-increment: lst-ctn-kix_c5nbmthp09ff-2
+        }
+
+        ol.lst-kix_c5nbmthp09ff-3.start {
+            counter-reset: lst-ctn-kix_c5nbmthp09ff-3 0
+        }
+
+        .lst-kix_c5nbmthp09ff-8>li {
+            counter-increment: lst-ctn-kix_c5nbmthp09ff-8
+        }
+
+        .lst-kix_c5nbmthp09ff-5>li {
+            counter-increment: lst-ctn-kix_c5nbmthp09ff-5
+        }
+
+        .lst-kix_c5nbmthp09ff-6>li:before {
+            content: ""counter(lst-ctn-kix_c5nbmthp09ff-6, decimal) ". "
+        }
+
+        .lst-kix_c5nbmthp09ff-7>li:before {
+            content: ""counter(lst-ctn-kix_c5nbmthp09ff-7, lower-latin) ". "
+        }
+
+        .lst-kix_c5nbmthp09ff-5>li:before {
+            content: "("counter(lst-ctn-kix_c5nbmthp09ff-5, lower-roman) ") "
+        }
+
+        ol.lst-kix_c5nbmthp09ff-8.start {
+            counter-reset: lst-ctn-kix_c5nbmthp09ff-8 0
+        }
+
+        .lst-kix_c5nbmthp09ff-8>li:before {
+            content: ""counter(lst-ctn-kix_c5nbmthp09ff-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_c5nbmthp09ff-0.start {
+            counter-reset: lst-ctn-kix_c5nbmthp09ff-0 0
+        }
+
+        ol.lst-kix_c5nbmthp09ff-4.start {
+            counter-reset: lst-ctn-kix_c5nbmthp09ff-4 0
+        }
+
+        ol.lst-kix_c5nbmthp09ff-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c5nbmthp09ff-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c5nbmthp09ff-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c5nbmthp09ff-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c5nbmthp09ff-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c5nbmthp09ff-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_c5nbmthp09ff-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_c5nbmthp09ff-2>li:before {
+            content: ""counter(lst-ctn-kix_c5nbmthp09ff-2, lower-roman) ") "
+        }
+
+        ol.lst-kix_c5nbmthp09ff-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_c5nbmthp09ff-6>li {
+            counter-increment: lst-ctn-kix_c5nbmthp09ff-6
+        }
+
+        ol.lst-kix_c5nbmthp09ff-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_c5nbmthp09ff-3>li:before {
+            content: "("counter(lst-ctn-kix_c5nbmthp09ff-3, decimal) ") "
+        }
+
+        .lst-kix_c5nbmthp09ff-3>li {
+            counter-increment: lst-ctn-kix_c5nbmthp09ff-3
+        }
+
+        ol.lst-kix_c5nbmthp09ff-6.start {
+            counter-reset: lst-ctn-kix_c5nbmthp09ff-6 0
+        }
+
+        ol.lst-kix_c5nbmthp09ff-2.start {
+            counter-reset: lst-ctn-kix_c5nbmthp09ff-2 0
+        }
+
+        .lst-kix_c5nbmthp09ff-0>li {
+            counter-increment: lst-ctn-kix_c5nbmthp09ff-0
+        }
+
+        .lst-kix_c5nbmthp09ff-4>li:before {
+            content: "("counter(lst-ctn-kix_c5nbmthp09ff-4, lower-latin) ") "
+        }
+
+        ol.lst-kix_c5nbmthp09ff-1.start {
+            counter-reset: lst-ctn-kix_c5nbmthp09ff-1 0
+        }
+
+        ol.lst-kix_c5nbmthp09ff-7.start {
+            counter-reset: lst-ctn-kix_c5nbmthp09ff-7 0
+        }
+
+        .lst-kix_c5nbmthp09ff-7>li {
+            counter-increment: lst-ctn-kix_c5nbmthp09ff-7
+        }
+
+        .lst-kix_c5nbmthp09ff-1>li {
+            counter-increment: lst-ctn-kix_c5nbmthp09ff-1
+        }
+
+        .lst-kix_c5nbmthp09ff-1>li:before {
+            content: ""counter(lst-ctn-kix_c5nbmthp09ff-1, lower-latin) ") "
+        }
+
+        .lst-kix_c5nbmthp09ff-0>li:before {
+            content: ""counter(lst-ctn-kix_c5nbmthp09ff-0, decimal) ") "
+        }
+
+        .lst-kix_c5nbmthp09ff-4>li {
+            counter-increment: lst-ctn-kix_c5nbmthp09ff-4
+        }
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c8 {
+            background-color: #93c47d;
+            color: #ffff00;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 43pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c1 {
+            color: #ff9900;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 24pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c6 {
+            color: #ff0000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 24pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c5 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c0 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 43pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c10 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 24pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c2 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c7 {
+            text-decoration-skip-ink: none;
+            font-size: 24pt;
+            -webkit-text-decoration-skip: none;
+            color: #1155cc;
+            text-decoration: underline
+        }
+
+        .c9 {
+            background-color: #ffffff;
+            max-width: 451.4pt;
+            padding: 72pt 72pt 72pt 72pt
+        }
+
+        .c3 {
+            color: inherit;
+            text-decoration: inherit
+        }
+
+        .c4 {
+            height: 11pt
+        }
+
+        .title {
+            padding-top: 0pt;
+            color: #000000;
+            font-size: 26pt;
+            padding-bottom: 3pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 0pt;
+            color: #666666;
+            font-size: 15pt;
+            padding-bottom: 16pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        h1 {
+            padding-top: 20pt;
+            color: #000000;
+            font-size: 20pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 18pt;
+            color: #000000;
+            font-size: 16pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 16pt;
+            color: #434343;
+            font-size: 14pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 14pt;
+            color: #666666;
+            font-size: 12pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+    </style>
+</head>
+
+<body class="c9">
+    <div>
+        <p class="c2 c4"><span class="c5"></span></p>
+    </div>
+    <p class="c2"><span class="c8">Ayvalanma Uygulamas&#305;</span></p>
+    <p class="c2 c4"><span class="c8"></span></p>
+    <p class="c2"><span class="c1">Ayvalanmak m&#305; istiyorsunuz? Ama ayvalanam&#305;yor musunuz? O zaman
+            &ldquo;Ayvalanma Uygulamas&#305;&rdquo;n&#305; indirin ve ayvalan&#305;n.</span></p>
+    <p class="c2 c4"><span class="c1"></span></p>
+    <p class="c2"><span class="c6">NOT: Sadece android cihazlar i&ccedil;indir.</span></p>
+    <p class="c2 c4"><span class="c1"></span></p>
+    <p class="c2"><span class="c7"><a class="c3"
+                href="https://www.google.com/url?q=https://drive.google.com/file/d/1-BeWC4Qvcns6oH7oL_BlbwonNMmzawS_/view?usp%3Dsharing&amp;sa=D&amp;source=editors&amp;ust=1617378410769000&amp;usg=AOvVaw0mPSIDx6YyaxVP_DLz0yq-">Uygulamay&#305;
+                &#304;ndirmek &#304;&ccedil;in T&#305;klay&#305;n&#305;z</a></span></p>
+    <p class="c2 c4"><span class="c0"></span></p>
+    <p class="c2 c4"><span class="c10"></span></p>
+</body>
+
+</html>
